@@ -1,0 +1,25 @@
+{
+  "name": "my-chat-app",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "bun  ./index.js & bun websocket.ts"
+  },
+  "dependencies": {
+    "@types/dompurify": "^3.0.5",
+    "@types/marked": "^6.0.0",
+    "dompurify": "^3.1.6",
+    "marked": "^13.0.2",
+    "cookie": "latest",
+    "devalue": "latest",
+    "set-cookie-parser": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
